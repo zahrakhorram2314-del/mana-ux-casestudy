@@ -1,4 +1,4 @@
-# Mana (مانا) – AI-Powered English Learning Companion
+# Mana – AI-Powered English Learning Companion
 
 > **UX Case Study & Behavioral Design Architecture**  
 > A supportive, error-tolerant, and adaptive AI language companion designed for children.
