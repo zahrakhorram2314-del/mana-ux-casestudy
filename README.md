@@ -24,17 +24,20 @@ Traditional language learning applications often suffer from two critical UX fla
 
 Mana decouples interaction loops to prioritize **Emotional Safety** and **Meaningful Progression**:
 
-┌────────────────────────┐
-│    Learning Trigger    │
-└───────────┬────────────┘
-│
-┌──────────────────────┴──────────────────────┐
-▼                                             ▼
-[Daily Practice / Loops]                     [Milestone Mastery]
-│                                             │
-▼                                             ▼
-⚪ White Coins (Activity)                     🟡 Gold Coins (Achievement)
-(Avatar Customization & Mini-Games)             (Story Chapters & Certificates)
+```text
+                              ┌────────────────────────┐
+                              │    Learning Trigger    │
+                              └───────────┬────────────┘
+                                          │
+                   ┌──────────────────────┴──────────────────────┐
+                   ▼                                             ▼
+       [Daily Practice / Loops]                     [Milestone Mastery]
+                   │                                             │
+                   ▼                                             ▼
+       ⚪ White Coins (Activity)                     🟡 Gold Coins (Achievement)
+  (Avatar Customization & Mini-Games)             (Story Chapters & Certificates)
+```
+)
 
 ### 1. Dual-Currency Economy
 * **⚪ White Coins (Activity-Based):**
@@ -54,11 +57,14 @@ Mana decouples interaction loops to prioritize **Emotional Safety** and **Meanin
 
 ## 📐 Core User Flow & Information Architecture
 
+```text
 [Onboarding] ──> [Adaptive Learning Loop] ──> [Progression System]
-│                     │                            │
-├─ Native Language     ├─ Vocabulary (Visual/Audio) ├─ Milestone Badges
-└─ Friendly Persona    ├─ Reading (Contextual)      └─ Gold Coin Distribution
-└─ Grammar (Interactive)
+      │                     │                            │
+      ├─ Native Language     ├─ Vocabulary (Visual/Audio) ├─ Milestone Badges
+      └─ Friendly Persona    ├─ Reading (Contextual)      └─ Gold Coin Distribution
+                             └─ Grammar (Interactive)
+```
+
 
 1. **Onboarding (Friction Reduction):**
    * Contextual localization allows initial interaction in the learner's native language to build cognitive trust.
